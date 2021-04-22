@@ -21,7 +21,25 @@
 - Execute o seu servidor do banco
 ## Como testar
 - Abra o aplicativo de envio de requisições HTTP se sua preferência. Ex: PostMan.
+
+#### Testando a rota Species
+
+##### Método Post.
+- Selecione o Post no aplicativo de envio de requisições HTTP.
+- Insira essa rota: https://localhost:5001/tree.
+- Selecione o tipo de envio como Body depois Raw e o tipo de envio será JSON.
+- Coloque estes dados no Raw:
+  -  "description": "Myrciaria cauliflora"
+- Clique em send estará salvo no banco de dados.  
+
+##### Método Get.
+- Selecione o Get no aplicativo de envio de requisições HTTP.
+- Insira essa rota: https://localhost:5001/species/Myrciaria cauliflora. Obs: O final da rota é a descrição que deve buscar na tabela.
+- Selecione o tipo de envio como None
+- Clique em send e retornará os dados. 
+ 
 #### Testando a rota Tree
+
 ##### Método Post.
 - Selecione o Post no aplicativo de envio de requisições HTTP.
 - Insira essa rota: https://localhost:5001/tree.
@@ -35,7 +53,25 @@
 ##### Método Get.
 - Selecione o Get no aplicativo de envio de requisições HTTP.
 - Insira essa rota: https://localhost:5001/tree/Jabuticabeira. Obs: O final da rota é a descrição que deve buscar na tabela.
+- Selecione o tipo de envio como None
 - Clique em send e retornará os dados.  
-
  
+#### Testando a rota Harvest
+
+##### Método Post.
+- Selecione o Post no aplicativo de envio de requisições HTTP.
+- Insira essa rota: https://localhost:5001/harvest.
+- Selecione o tipo de envio como Body depois Raw e o tipo de envio será JSON.
+- Coloque estes dados no Raw:
+  -  "information": "Colheita em SC",
+  -  "tree": "Jabuticabeira",
+  -  "date": "0001-01-01T00:00:00",
+  -  "weigth": 150.0
+- Clique em send estará salvo no banco de dados.  
+
+##### Método Get.
+- Selecione o Get no aplicativo de envio de requisições HTTP.
+- Insira essa rota: https://localhost:5001/harvest/Colheita em SC. Obs: O final da rota é a informação que deve buscar na tabela.
+- Selecione o tipo de envio como None
+- Clique em send e retornará os dados.   
 
