@@ -21,5 +21,17 @@
 - Execute o seu servidor do banco
 ## Como testar
 - Abra o aplicativo de envio de requisições HTTP se sua preferência. Ex: PostMan.
-##### Testando a rota Tree
+#### Testando a rota Tree
+##### Método Post.
+- Selecione o Post no aplicativo de envio de requisições HTTP.
+- Insira essa rota: https://localhost:5001/tree.
+- Selecione o tipo de envio como Body depois Raw e o tipo de envio será JSON.
+- Coloque estes dados no Raw:
+  -  "description": "Jabuticabeira",
+  -  "age" : 15,
+  -  "species": "Myrciaria cauliflora"
+- Clique em send estará salvo no banco de dados.  
+
+##### Método Get.
+ 
 
