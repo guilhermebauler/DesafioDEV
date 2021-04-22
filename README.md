@@ -18,3 +18,8 @@
 - Baixe a pasta BaseDeDados diretamente no botão de download do GitHub.
 - Extraia o arquivo .zip para um diretório de sua escolha.
 - Faça a importação da base de dados extraida no SGDB Oracle de sua preferência 
+- Execute o seu servidor do banco
+## Como testar
+- Abra o aplicativo de envio de requisições HTTP se sua preferência. Ex: PostMan.
+### Testando a rota Tree
+
