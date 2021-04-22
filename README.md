@@ -1,20 +1,20 @@
-# DesafioDEV
-Tecnologias utilizadas
-HTML / CSS / JavaScript
-Vue.js via CDN (Content Delivery Network).
-Axios via CDN.
-Serviços utilizados
-API própria (repositório do github).
-Como usar
-Via download direto
-Baixe o código-fonte da aplicação diretamente no botão de download do GitHub.
+## DesafioDEV
+## Tecnologias utilizadas
+ C#, Oracle 11g
+## Como usar
+###Configurando API 
+Baixe a pasta DesafioDEV diretamente no botão de download do GitHub.
 Extraia o arquivo .zip para um diretório de sua escolha.
-Você pode acessar a plataforma através do seu navegador acessando o diretório onde extraiu o projeto.
-Via terminal
-Abra o terminal e navegue até o diretório que deseja alocar o projeto.
-Execute o comando $ git clone https://github.com/RuanScherer/conectando-platform.git para clonar o repositório (é necessário possuir o GIT instalado).
-Você pode acessar a plataforma através do seu navegador acessando o diretório onde extraiu o projeto.
-Aviso importante
-A API utilizada para todo o processamento dos dados está hospedada em um serivço gratuito do Heroku e por isso pode estar indisponível após determinado tempo sem ser acessada.
-
-Estou também no Linkedin, conecte-se comigo! 🚀
+Abra o visual studio.
+Vá em Arquivo > Abirir > Projeto/Solução e selecione o diretório que foi extraido o projeto.
+Após abrir o projeto procure a pasta DataBase e abra a classe Connection.cs.
+Procure uma variável chamada connectinString e altere os seguites valores:
+  (HOST = Aqui você insere seu endereço IPV4),
+  (PORT = Aqui você insere a porta usada na base de dados),
+  User ID= Aqui você insere seu usuário do banco,
+  Password= Aqui você insere sua senha do banco.
+Salve as alterações usando CTRL + S.
+###Configurando Banco de dados
+Baixe a pasta BaseDeDados diretamente no botão de download do GitHub.
+Extraia o arquivo .zip para um diretório de sua escolha.
+Faça a importação da base de dados extraida no SGDB Oracle de sua preferência 
