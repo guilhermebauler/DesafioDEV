@@ -77,7 +77,7 @@
 - Coloque estes dados no Raw:
   -  "information": "Colheita em SC",
   -  "tree": "Jabuticabeira",
-  -  "date": "0001-01-01T00:00:00",
+  -  "date": "2021-04-23T10:00:00",
   -  "weigth": 150.0
 - Clique em send estará salvo no banco de dados.  
 
