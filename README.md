@@ -16,9 +16,10 @@
 - Salve as alterações usando CTRL + S.
 ## Configurando Banco de dados
 - Baixe a pasta BaseDeDados diretamente no botão de download do GitHub.
-- Extraia o arquivo .zip para um diretório de sua escolha.
-- Faça a importação da base de dados extraida no SGDB Oracle de sua preferência 
+- Extraia o arquivo para um diretório de sua escolha.
 - Execute o seu servidor do banco
+- Abra uma conexão nova no seu SGDB, copie os scripts do arquivo exportar.sql e cole no executor de script do seu SGDB.
+- Execute este script e aguarde terminar, após o término a base de dados já estará instalada.
 ## Como testar
 #### Executando via Visual Studio
  - Após abrir o projeto no visual studio procure o icone verde escrito DesafioDev.
