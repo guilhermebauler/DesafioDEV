@@ -33,5 +33,9 @@
 - Clique em send estará salvo no banco de dados.  
 
 ##### Método Get.
+- Selecione o Get no aplicativo de envio de requisições HTTP.
+- Insira essa rota: https://localhost:5001/tree/Jabuticabeira. Obs: O final da rota é a descrição que deve buscar na tabela.
+- Clique em send e retornará os dados.  
+
  
 
