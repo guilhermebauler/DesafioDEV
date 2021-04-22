@@ -1,8 +1,8 @@
-## DesafioDEV
-## Tecnologias utilizadas
+# DesafioDEV
+# Tecnologias utilizadas
 - C#, Oracle 11g
-## Como usar
-# Configurando API 
+# Como usar
+## Configurando API 
 - Baixe a pasta DesafioDEV diretamente no botão de download do GitHub.
 - Extraia o arquivo .zip para um diretório de sua escolha.
 - Abra o visual studio.
@@ -14,7 +14,7 @@
   User ID= Aqui você insere seu usuário do banco,
   Password= Aqui você insere sua senha do banco.
 - Salve as alterações usando CTRL + S.
-# Configurando Banco de dados
+## Configurando Banco de dados
 - Baixe a pasta BaseDeDados diretamente no botão de download do GitHub.
 - Extraia o arquivo .zip para um diretório de sua escolha.
 - Faça a importação da base de dados extraida no SGDB Oracle de sua preferência 
