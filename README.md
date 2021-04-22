@@ -38,7 +38,7 @@
 
 ##### Método Post.
 - Selecione o Post no aplicativo de envio de requisições HTTP.
-- Insira essa rota: https://localhost:5001/tree.
+- Insira essa rota: https://localhost:5001/species.
 - Selecione o tipo de envio como Body depois Raw e o tipo de envio será JSON.
 - Coloque estes dados no Raw:
   -  "description": "Myrciaria cauliflora"
