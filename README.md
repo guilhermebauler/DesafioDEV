@@ -20,6 +20,18 @@
 - Faça a importação da base de dados extraida no SGDB Oracle de sua preferência 
 - Execute o seu servidor do banco
 ## Como testar
+#### Executando via Visual Studio
+ - Após abrir o projeto no visual studio procure o icone verde escrito DesafioDev.
+ - Clique no icone e espere abrir uma janela do CMD, após isso está pronto para testar as rotas.
+#### Executando via CMD
+ - Abra o CMD (Tecla Windows + R, digite CMD e clique enter).
+ - Após abrir o CMD acesse a pasta do projeto onde você extraiu.
+ - Ex: cd C:\Users\public\Documents\Projeto DesafioDEV\DesafioDEV
+ - Digite o comando dotnet run no CMD e clique enter.
+ - Após aparecer textos na cor ver está pronto para testar as rotas.
+
+#### Testando as rotas
+
 - Abra o aplicativo de envio de requisições HTTP se sua preferência. Ex: PostMan.
 
 #### Testando a rota Species
