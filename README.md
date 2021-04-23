@@ -3,9 +3,16 @@
 - C#, Oracle 11g
 # Como usar
 ## Configurando API 
-- Baixe a pasta DesafioDEV diretamente no botão de download do GitHub.
-- Extraia o arquivo .zip para um diretório de sua escolha.
+
+### Via download direto
+- Baixe a pasta do codigo fonte diretamente no botão de download do GitHub.
+- Extraia o arquivo para um diretório de sua escolha.
 - Abra o visual studio.
+### Via terminal
+- Abra o terminal e navegue até o diretório que deseja alocar o projeto.
+- Execute o comando $ git clone https://github.com/guilhermebauler/DesafioDEV para clonar o repositório (é necessário possuir o GIT instalado).
+- Abra o visual studio.
+
 - Vá em Arquivo > Abrir > Projeto/Solução e selecione o diretório que foi extraido o projeto.
 - Após abrir o projeto procure a pasta DataBase e abra a classe Connection.cs.
 - Procure uma variável chamada connectinString e altere os seguites valores:
