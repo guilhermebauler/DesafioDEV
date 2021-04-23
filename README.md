@@ -6,7 +6,7 @@
 - Baixe a pasta DesafioDEV diretamente no botão de download do GitHub.
 - Extraia o arquivo .zip para um diretório de sua escolha.
 - Abra o visual studio.
-- Vá em Arquivo > Abirir > Projeto/Solução e selecione o diretório que foi extraido o projeto.
+- Vá em Arquivo > Abrir > Projeto/Solução e selecione o diretório que foi extraido o projeto.
 - Após abrir o projeto procure a pasta DataBase e abra a classe Connection.cs.
 - Procure uma variável chamada connectinString e altere os seguites valores:
  - (HOST = Aqui você insere seu endereço IPV4),
